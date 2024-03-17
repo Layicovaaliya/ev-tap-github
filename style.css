@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+.shop{
+    width: 40%;
+    height: 100vh;
+    float: left;
+}
+.img{
+    width: 60%;
+    height: 100vh;
+    float: right;
+    background-image: url(./download.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.list{
+    width: 35vw;
+    height: 85vh;
+    background: rgb(195,207,45);
+    background: linear-gradient(0deg, rgba(195,207,45,1) 20%, rgba(118,22,22,1) 80%);
+    margin: 20px;
+    border-radius: 10px:
+}
+h3{
+    text-align: center;
+}
+input{
+    width: 15vw;
+    background-color: lightgray;
+}
+h4{
+        display: inline;
+    background-color: lightgray;
+}
+button{
+    width: 13vw;
+    color: gold;
+    border: 1px gold solid;
+    background-color: #920000;
+}
+p{
+    margin-top: 10px;
+    margin-left: 15px;
+    border-bottom: 2px gold solid;
+}
